@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #ECF3EA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.btnQuarto {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    color: #142664;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 90px 70px 0 70px;
+}
+
+.grid .quarto {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.grid .quarto img {
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.grid .quarto h6 {
+    font-size: 17px;
+    margin: 5px 10px;
+    font-weight: normal;
+}
+
+.grid .quarto .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .quarto .livre {
+    margin: auto;
+    width: 150px;
+    color: #fff;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #414F96;
+    border-radius: 20px;
+    border: none;
+}
+
+.grid .quarto .reservado {
+    margin: auto;
+    width: 150px;
+    color: #fff;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color: #fc3d2a;
+    border-radius: 20px;
+    border: none;
+}
+
+.grid .quarto .ocupado {
+    margin: auto;
+    width: 150px;
+    color: #fff;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #fc3d2a;
+    border-radius: 20px;
+}
+
+.quarto .info {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.quarto .info img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.quarto .info .quartoInfo {
+    display: flex;
+    gap: 70px;
+}

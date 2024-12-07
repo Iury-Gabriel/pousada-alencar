@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../images/reservarbackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container form {
+    background-color: #414F96;
+    width: 462px;
+    height: 580px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form h1 {
+    margin: 30px auto;
+    color: #fff;
+    font-size: 40px;
+}
+
+.container form input, select {
+    background-color: #2C3666;
+    color: white;
+    padding: 16px;
+    border-radius: 25px;
+    outline: none;
+    width: 330px;
+}
+
+.container form input::placeholder {
+    color: white;
+}
+
+.container form .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container form .inputs label {
+    margin: 5px 0px 0px 0px;
+    color: #fff;
+}
+
+.container form button {
+    background-color: #FC3D2A;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
